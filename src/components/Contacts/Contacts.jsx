@@ -34,7 +34,7 @@ const Contacts = () => {
         </div>
         <div className='contacts-section'>
                   <div className='contacts-left'>
-                   <h1>Get in touch</h1>
+                   <h1>Let's talk</h1>
                    <p>I'm currently available to take new projects , so feel free to send me a messageabout anything that you want me to work on. You can contact anytime you want </p>
                 
          <div className= 'contacts-details'>
