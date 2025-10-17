@@ -23,7 +23,7 @@ const closeMenu = () => {
      <img src={menu_open} onClick={openMenu} alt=''className='nav-mob-open'/> 
     <ul ref={menuRef} className='nav-menu'>
     <img src={menu_close} onClick={closeMenu} alt='' className='nav-mob-close'/>
-        <li><AnchorLink className='anchor-link' offset={50} href='#home'><p onClick={()=> setMenu("home")}>HOME</p></AnchorLink> {menu==="home"?<hr className=''/>:<></>} </li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#home'><p onClick={()=> setMenu("home")}>HOME</p></AnchorLink> {menu==="home" ? <hr className=''/>:<></>} </li>
         <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=> setMenu("about")}>ABOUT</p></AnchorLink>{menu==="about" ? <hr className=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={()=> setMenu("services")}>SERVICES</p></AnchorLink> {menu==="services" ? <hr className=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=> setMenu("port-folio")}>PORT-FOLIO</p></AnchorLink>{menu==="port-folio" ? <hr className=''/>:<></>} </li>
