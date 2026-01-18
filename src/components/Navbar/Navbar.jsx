@@ -3,13 +3,13 @@ import './Navbar.css'
 import logo from '../../assets/logo.png'
 import { useState } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import menu_open from "../../assets/menu-open.png"
-import menu_close from "../../assets/menu_close1.svg"
+import menu_open from "../../assets/menu_open.svg"
+import menu_close from "../../assets/menu_close.svg"
 import { useRef } from 'react'
 
 
 const Navbar = () => {
-  const [menu , setMenu] = useState("home");
+ const [menu , setMenu] = useState("home");
  const menuRef = useRef();
 const openMenu = () => {
   menuRef.current.style.right="0";
