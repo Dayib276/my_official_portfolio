@@ -3,8 +3,8 @@ import './Hero.css'
 import Profile from '../../assets/profile1.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import myPdf from '../../assets/Dayib.pdf'
- import './'
-const Hero = () => {
+
+ const Hero = () => {
   return (
     <div className='hero'>
         <img className='profile-image' src={Profile} alt=''/>
