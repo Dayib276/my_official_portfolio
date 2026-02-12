@@ -7,6 +7,7 @@ import project3 from "../../assets/project3.jpeg"
 import project4 from "../../assets/project4.jpeg"
 import project5 from "../../assets/project5.jpeg"
 import project6 from "../../assets/project6.jpeg"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const MyWork = () => {
   return (
@@ -15,7 +16,8 @@ const MyWork = () => {
         <h1>My latest Work</h1>   
         </div>
         <div className='mywork-container'>
-            <img src={project1} alt=''/>
+    <AnchorLink className='anchor-link' offset={50} href='https://dayibofficialpage.vercel.app/'><img src={project1} alt=''/>
+</AnchorLink>
             <img src={project2} alt=''/>
             <img src={project3} alt=''/>
             <img src={project4} alt=''/>

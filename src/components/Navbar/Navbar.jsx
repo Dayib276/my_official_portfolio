@@ -29,8 +29,8 @@ const closeMenu = () => {
         <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=> setMenu("port-folio")}>PORT-FOLIO</p></AnchorLink>{menu==="port-folio" ? <hr className=''/>:<></>} </li>
         <li> <AnchorLink className='anchor-link' offset={50} href='#contacts'><p onClick={()=> setMenu("contact")}>CONTACT</p></AnchorLink>{menu==="contact" ? <hr className=''/>:<></>} </li>
      </ul>
-    <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contacts'>Connect with me</AnchorLink></div> 
-     
+    <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contacts'>Connect or code with me</AnchorLink></div> 
+      
     </div>
   )
 }

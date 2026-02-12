@@ -36,6 +36,11 @@
     font-weight: 500;
     margin: 50px;
  }
+ .anchor-link{
+    text-decoration: none;
+    color: white;
+    gap: 5px;
+ }
 .hero-connect{
     padding: 25px 45px ;
     border-radius: 50px;
@@ -54,7 +59,7 @@
 .hero-resume:hover{
     border-color:#B415FF;
 }
-@media(max-width: 768px) {
+@media(max-width: 700px) {
     .hero{
         display: flex;
         text-align: center;
